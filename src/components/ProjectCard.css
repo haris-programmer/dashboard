@@ -1,0 +1,66 @@
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .badge {
+    background-color: #eef2ff;  
+    color: #6366f1;  
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  h4 {
+    font-size: 16px;
+    margin: 15px 0;
+    color: #333;
+    font-weight:lighter;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .avatars {
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: -10px;
+    background: #ddd; 
+  }
+  
+  .avatar:first-child {
+    margin-left: 0;
+  }
+  
+  .stats {
+    display: flex;
+    gap: 10px;
+    color: #6b7280;
+    font-size: 14px;
+    align-items: center;
+  }
+  
+  .icon {
+    font-size: 16px;
+  }
+  
